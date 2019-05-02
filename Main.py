@@ -8,7 +8,7 @@ Created on Thu May  2 04:07:50 2019
 #Beautiful soup
 import bs4
 import requests
-userInput=input("Enter the searching thing: ")
+userInput=input("Enter the searching String: ")
 userInput=userInput.replace(" ","+")
 url3="https://www.google.co.in/search?q="+userInput
 data3=requests.get(url3)
